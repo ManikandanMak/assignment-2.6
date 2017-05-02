@@ -1,0 +1,66 @@
+1)
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class acad
+{
+public static void main (String[] args) throws java.lang.Exception
+{
+Scanner sc = new Scanner(System.in);
+int	x=sc.nextInt();
+int	y=sc.nextInt();
+for(int i=x;i<=y;i++)
+{
+if(i%2==0)
+{
+System.out.println("even"+i);
+}
+else
+{
+System.out.println("odd"+i);
+}
+}
+} 
+}
+
+
+2)
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class acad
+{
+public static void main (String[] args) throws java.lang.Exception
+{
+Scanner sc = new Scanner(System.in);
+int x=sc.nextInt();
+for(int i=1;i<=x;i++)
+{
+System.out.println(x+"X"+i+"="+(i*x));
+}
+}
+}
+
+3)
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class acad
+{
+public static void main (String[] args) throws java.lang.Exception
+{
+Scanner sc = new Scanner(System.in);
+int x=sc.nextInt();
+int y=sc.nextInt();
+sum(x);
+sum(x,y);
+} 
+static void sum(int x)
+{
+System.out.println(x+100);
+}
+static void sum(int x,int y)
+{
+System.out.println(x+y);
+}
+}
